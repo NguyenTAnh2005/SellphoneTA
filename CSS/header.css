@@ -1,0 +1,25 @@
+* {
+    transition: all 0.25s linear !important;
+
+}
+
+.dropdown-item>img,
+.navbar-brand>img {
+    border-radius: 50%;
+}
+
+.bg-red {
+    background-color: rgb(255, 58, 58);
+}
+
+.nav-link,
+.navbar-brand {
+    font-weight: 500;
+    color: white;
+}
+
+.nav-link:hover {
+    background-color: white;
+    color: red;
+    border-radius: 50rem;
+}

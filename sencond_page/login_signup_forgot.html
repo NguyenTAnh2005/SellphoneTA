@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.min.css"
+        integrity="sha512-t7Few9xlddEmgd3oKZQahkNI4dS6l80+eGEzFQiqtyVYdvcSG2D3Iub77R20BdotfRPA9caaRkg1tyaJiPmO0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        * {
+            transition: all 0.25s linear !important;
+        }
+
+        body {
+            background-color: red;
+        }
+    </style>
+    <div class="container mt-5" id="LOGIN">
+        <div class="row mb-2 justify-content-center">
+            <div class="col-12 col-sm-8 col-md-6 col-lg-4">
+                <div class="card rounded-4 p-4">
+                    <div class="text-center mb-4">
+                        <img class="rounded-circle" src="../Images/Logo.png" width="50px" height="50px">
+                        <h3 class="mt-3">Log In</h3>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="email" id="li_ip1" class="form-control rounded-pill" placeholder=" ">
+                        <label for="li_ip1" class="fw-semibold text-dark">Input Your Email</label>
+                    </div>
+                    <div class="form-floating mb-3 position-relative">
+                        <input type="password" id="li_ip2" class="form-control rounded-pill" placeholder=" ">
+                        <i class="bi bi-eye-slash position-absolute" id="li_ip2_eye"
+                            style="right:16px;top:50%;transform:translateY(-50%)"></i>
+                        <label for="li_ip2" class="fw-semibold text-dark">Input your Pass</label>
+                    </div>
+                    <div class="form-check mb-4">
+                        <input type="checkbox" class="form-check-input" id="li_ip3">
+                        <label for="li_ip3" class="form-check-label">Remember me?</label>
+                    </div>
+                    <div class="text-center mb-4">
+                        <p class=" d-block  text-dark mb-2">You don't have an account?
+                            <a class="text-decoration-none fw-semibold fs-6" style="color: rgb(255, 58, 58);"
+                                href="#sign-up" id="LI_SU">
+                                Sign Up</a>
+                        </p>
+                        <a class=" d-block text-decoration-none fw-semibold fs-6" style="color: rgb(255, 58, 58);"
+                            href="#forgot-pass" id="LI_FP">
+                            Forgot your pass?
+                        </a>
+                    </div>
+                    <button class="btn btn-outline-danger fs-5 fw-semibold rounded-pill" type="submit">
+                        LOG IN
+                        <i class="bi bi-arrow-right-circle"></i>
+                    </button>
+                    <a href="../index.html" class="text-decoration-none text-center mt-4">Continue without Log In</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container my-5 d-none" id="SIGNUP">
+        <div class="card p-4 rounded-4">
+            <div class="text-center mb-4">
+                <img class="rounded-circle" src="../Images/Logo.png" width="50px" height="50px">
+                <h3 class="mt-3">Sign Up</h3>
+            </div>
+            <div class="row mb-2">
+                <div class="col-12 col-md-6 mt-4">
+                    <div class="form-floating">
+                        <input type="text" class="form-control rounded-pill" id="su_ip1" placeholder="">
+                        <label for="su_ip1" class="fw-semibold text-dark">Last name</label>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 mt-4">
+                    <div class="form-floating">
+                        <input type="text" class="form-control rounded-pill" id="su_ip2" placeholder="">
+                        <label for="su_ip2" class="fw-semibold text-dark">First name</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-2">
+                <div class="col-12 col-md-4 mt-4">
+                    <div class="form-floating">
+                        <input type="email" class="form-control rounded-pill" id="su_ip3" placeholder="">
+                        <label for="su_ip3" class="fw-semibold text-dark">Email</label>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mt-4">
+                    <div class="btn-group d-flex justify-content-center gap-3 py-2 border" style="border-color: gray;">
+                        <div>
+                            <input type="radio" class="btn-check" name="gender_signup" id="su_ip4_1" autocomplete="off">
+                            <label class="btn btn-outline-primary" for="su_ip4_1">
+                                <i class="bi bi-gender-male"></i>
+                                Male
+                            </label>
+                        </div>
+                        <div>
+                            <input type="radio" class="btn-check" name="gender_signup" id="su_ip4_2" autocomplete="off">
+                            <label class="btn btn-outline-danger" for="su_ip4_2">
+                                <i class="bi bi-gender-female"></i>
+                                Female
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 mt-4">
+                    <div class="form-floating">
+                        <input type="date" class="form-control rounded-pill" name="" id="su_ip5" placeholder="">
+                        <label for="su_ip5" class="fw-semibold text-dark" type="email">Birth</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-2">
+                <div class="col-12 col-md-6 mt-4">
+                    <div class="form-floating mb-3 position-relative">
+                        <input type="password" class="form-control rounded-pill" id="su_ip6" placeholder="">
+                        <i class="bi bi-eye-slash position-absolute" id="su_ip6_eye"
+                            style="right:16px;top:50%;transform:translateY(-50%)"></i>
+                        <label for="su_ip6" class="fw-semibold text-dark">Password</label>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 mt-4">
+                    <div class="form-floating mb-3 position-relative">
+                        <input type="password" class="form-control rounded-pill" id="su_ip7" placeholder="">
+                        <i class="bi bi-eye-slash position-absolute" id="su_ip7_eye"
+                            style="right:16px;top:50%;transform:translateY(-50%)"></i>
+                        <label for="su_ip7" class="fw-semibold text-dark">Register password</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-2 d-flex justify-content-evenly">
+                <div class="col-12 col-md-5 mt-2">
+                    <a class="btn btn-outline-danger w-100 fs-5 rounded-pill" id="SU_LI" href="#log-in">
+                        <i class="bi bi-chevron-left"></i>
+                        Back to <span class="fw-semibold">Log In</span>
+                    </a>
+                </div>
+                <div class="col-12 col-md-5 mt-2">
+                    <a class="btn btn-danger w-100 fw-semibold fs-5 rounded-pill" type="submit">
+                        SIGN UP
+                        <i class="bi bi-person-plus"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5 d-none" id="FORGOTPASS">
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-8 col-md-6 col-lg-4">
+                <div class=" card rounded-4 p-4">
+                    <div class="text-center mb-4">
+                        <img class="rounded-circle" src="../Images/Logo.png" width="50px" height="50px">
+                        <h3 class="mt-3">Forgot Password</h3>
+                        <p class="mt-3 fs-6">We will send a new password to your account email. Please check your Gmail!
+                            If you don’t see our reply in your Inbox, please check your Spam folder.</p>
+                    </div>
+                    <div class="form-floating my-4">
+                        <input type="text" class="form-control rounded-pill" placeholder="" id="fp_ip1">
+                        <label for="fp_ip1" class="fw-semibold text-dark">Your email</label>
+                    </div>
+                    <button class="btn btn-success fw-semibold fs-5 mb-4 rounded-pill" type="submit">
+                        SEND PASSWORD TO EMAIL
+                        <i class="bi bi-send"></i>
+                    </button>
+                    <a class="btn btn-outline-danger fw-semibold fs-6 mb-4 rounded-pill" id="FP_LI" href="#log-in">
+                        <i class="bi bi-chevron-left"></i>
+                        <span>BACK TO LOG IN</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+    </script>
+
+
+    <script src="../JS/Page_1/li_su_fp.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
