@@ -17,15 +17,88 @@
 </head>
 
 <body>
-    <nav class="navbar bg-red navbar-expand-lg" id="HEADER">
+    <nav class="navbar bg-red navbar-expand-xl px-5" id="HEADER"></nav>
+    <style>
+        .text-justify {
+            text-align: justify;
+        }
+    </style>
+    <!--NOI DUNG CHINH-->
+    <div class="main mt-4 container-fluid">
+        <div class="row d-flex justify-content-evenly">
+            <div class="col-12 col-xl-7 bg-secondary">
+                <div class="carousel slide" data-bs-ride="carousel" id="index_banner">
+                    <!--SLIDE-->
+                    <div class="carousel-inner">
+                        <style>
+                            .carousel-item>img {
+                                /* height: 500px; */
+                            }
+                        </style>
+                        <div class="carousel-item active">
+                            <img src="Images/header_banner/home_banner_1.png" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Images/header_banner/home_banner_2.png" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Images/header_banner/home_banner_3.png" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Images/header_banner/home_banner_4.png" class="d-block w-100">
+                        </div>
+                    </div>
+                    <!--Dieu HUONG PREV, NEXT-->
+                    <button class="carousel-control-prev" type="button" data-bs-slide="prev"
+                        data-bs-target="#index_banner" aria-hidden="true">
+                        <i class="bi bi-caret-left-square text-light fs-1"></i>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-slide="next"
+                        data-bs-target="#index_banner" aria-hidden="true">
+                        <i class="bi bi-caret-right-square text-light fs-1"></i>
+                    </button>
+                    <!--HIEN THI VI TRI-->
+                    <div class="carousel-indicators mb-0">
+                        <button type="button" data-bs-target="#index_banner" class="active"
+                            data-bs-slide-to="0"></button>
+                        <button type="button" data-bs-target="#index_banner" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#index_banner" data-bs-slide-to="2"></button>
+                        <button type="button" data-bs-target="#index_banner" data-bs-slide-to="3"></button>
+                    </div>
+                    <style>
+                        .carousel-indicators .active {
+                            background-color: #000;
+                        }
+                    </style>
+                </div>
+            </div>
+            <div class="col-12 col-xl-4 mt-3 mt-xl-0">
+                <div class="card">
+                    <img src="Images/present_img.png" class=" img-fluid w-25 mx-auto">
+                    <div class="card-body">
+                        <h3 class="text-center fw-semibold text-danger mb-3">Welcome to SellPhone TA super Vjppro!</h3>
+                        <p class="text-justify">Với cam kết uy tín tuyệt đối, kiểm tra kỹ lưỡng từng sản phẩm và chính
+                            sách bảo hành minh bạch, SellPhone TA luôn đặt quyền lợi khách hàng lên hàng đầu.</p>
+                        <p class="text-justify">Với cam kết uy tín tuyệt đối, kiểm tra kỹ lưỡng từng sản phẩm và chính
+                            sách bảo hành minh bạch, SellPhone TA luôn đặt quyền lợi khách hàng lên hàng đầu.</p>
+                        <p class="text-center fw-semibold mt-3 fs-4">
+                            <i class="bi bi-emoji-kiss me-2 fw-semibold"></i>
+                            Chúc các bạn mua sắm vui vẻ !
+                            <i class="bi bi-emoji-sunglasses ms-2 fw-semibold"></i>
+                        </p>
 
-    </nav>
-    <p>TRang chu show tom tat trang web</p>
+                    </div>
+                </div>
 
-    <script type="module" src="JS/Page_1/index.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
-        crossorigin="anonymous"></script>
+            </div>
+        </div>
+
+        <div class="footer container-fluid pb-3 mt-4 bg-secondary text-light" id="FOOTER"></div>
+        <script type="module" src="JS/Page_1/index.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+            crossorigin="anonymous"></script>
+
 
 
 </body>

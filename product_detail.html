@@ -16,119 +16,112 @@
 </head>
 
 <body>
-    <nav class="navbar bg-red navbar-expand-lg" id="HEADER">
+    <nav class="navbar bg-red navbar-expand-xl" id="HEADER">
 
     </nav>
     <p>Hiển thị chi tiết sản phẩm (còn cải tiến thêm)</p>
-    <div class="container px-4">
-        <div class="card px-2 py-4">
-            <div class="row justify-content-center ">
-                <h2 class="col-12 text-center my-4">Product Details</h2>
-                <!--Slide san pham-->
-                <div class="col-12 col-md-6">
-                    <div class="carousel slide" id="myCarouselSlide">
-                        <!-- Cac anh trong slide -->
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="Images/Carousel/img_slide_1.png" class="d-block w-100">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="Images/Carousel/img_slide_2.png" class="d-block w-100">
-                            </div>
-                            <div class="carousel-item ">
-                                <img src="Images/Carousel/img_slide_3.png" class="d-block w-100">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="Images/Carousel/img_slide_4.png" class="d-block w-100">
-                            </div>
-                            <div class="carousel-item ">
-                                <img src="Images/Carousel/img_slide_5.png" class="d-block w-100">
-                            </div>
+    <div class="container px-4 card px-2 py-4 mb-4">
+        <div class="row justify-content-center ">
+            <h2 class="col-12 text-center my-4">Product Details</h2>
+            <!--Slide san pham-->
+            <div class="col-12 col-md-6">
+                <div class="carousel slide" id="myCarouselSlide">
+                    <!-- Cac anh trong slide -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="Images/Carousel/img_slide_1.png" class="d-block w-100">
                         </div>
-
-                        <!-- Nut dieu huong slide -->
-                        <!-- Prev -->
-                        <button class="carousel-control-prev" type="button" data-bs-target="#myCarouselSlide"
-                            data-bs-slide="prev">
-                            <i class="bi bi-arrow-left-circle fs-1 text-black"></i>
-                        </button>
-
-                        <!-- Next -->
-                        <button class="carousel-control-next" type="button" data-bs-target="#myCarouselSlide"
-                            data-bs-slide="next">
-                            <i class="bi bi-arrow-right-circle fs-1 text-black"></i>
-                        </button>
-
-                        <!-- CHam tron hien thi vi tri slide -->
-                        <div class="carousel-indicators pt-4">
-                            <button type="button" data-bs-target="#myCarouselSlide" data-bs-slide-to="0"
-                                class="active"></button>
-                            <button type="button" data-bs-target="#myCarouselSlide" data-bs-slide-to="1"></button>
-                            <button type="button" data-bs-target="#myCarouselSlide" data-bs-slide-to="2"></button>
-                            <button type="button" data-bs-target="#myCarouselSlide" data-bs-slide-to="3"></button>
-                            <button type="button" data-bs-target="#myCarouselSlide" data-bs-slide-to="4"></button>
-
-                            <style>
-                                .carousel-indicators [data-bs-target] {
-                                    background-color: rgb(255, 0, 0);
-                                    width: 32px;
-                                    height: 8px;
-                                    border-radius: 8px;
-                                }
-
-                                .carousel-indicators .active {
-                                    background-color: #000;
-                                }
-                            </style>
+                        <div class="carousel-item">
+                            <img src="Images/Carousel/img_slide_2.png" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Images/Carousel/img_slide_3.png" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Images/Carousel/img_slide_4.png" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Images/Carousel/img_slide_5.png" class="d-block w-100">
                         </div>
                     </div>
+
+                    <!-- Nut dieu huong slide -->
+                    <!-- Prev -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#myCarouselSlide"
+                        data-bs-slide="prev">
+                        <i class="bi bi-arrow-left-circle fs-1 text-black"></i>
+                    </button>
+
+                    <!-- Next -->
+                    <button class="carousel-control-next" type="button" data-bs-target="#myCarouselSlide"
+                        data-bs-slide="next">
+                        <i class="bi bi-arrow-right-circle fs-1 text-black"></i>
+                    </button>
+
+                    <!-- CHam tron hien thi vi tri slide -->
+                    <div class="carousel-indicators mb-0">
+                        <button type="button" data-bs-target="#myCarouselSlide" data-bs-slide-to="0"
+                            class="active"></button>
+                        <button type="button" data-bs-target="#myCarouselSlide" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#myCarouselSlide" data-bs-slide-to="2"></button>
+                        <button type="button" data-bs-target="#myCarouselSlide" data-bs-slide-to="3"></button>
+                        <button type="button" data-bs-target="#myCarouselSlide" data-bs-slide-to="4"></button>
+
+                        <style>
+                            .carousel-indicators [data-bs-target] {
+                                background-color: rgb(96, 88, 88);
+                            }
+
+                            .carousel-indicators .active {
+                                background-color: #000;
+                            }
+                        </style>
+                    </div>
                 </div>
-                <!--Thong tin sp-->
-                <div class="card col-12 col-md-6">
-                    <h4 class="fw-bold text-center">Xiaomi 11T 8GB-256GB (MediaTek Dimensity 1200-Ultra )</h4>
-                    <p class="text-decoration-line-through text-center">Original Price: 9 899 000 VNĐ</p>
-                    <h3 class="fw-semibold text-center">New price: 3 959 000 VNĐ <span class="badge bg-success">Off
-                            60%</span></h3>
-                    <p>Status: <span class="text-success fs-5 fw-semibold">available</span></p>
-                    <p>Desc: Một chiếc điện thoại phù hợp với túi tiền cho học sinh-sinh viên, giá thành rẻ, pin dung
-                        lượng
-                        tầm trung, camera trung, chip mạnh thuộc cận cao. Chơi freefire có thể bật MAX SETTING </p>
-                    <p>State: <span class="text-danger">Máy bị xước nhẹ bên ngoài, pin đã qua sử dụng một thời gian,
-                            không
-                            tặng kèm sạc và phụ kiện nào khác!</span></p>
-                    <h4 class="text-ceter">Thong tin chi tiet san pham</h4>
-                    <ul class="list-unstyled ms-4 ps-4">
-                        <li class=" d-flex align-items-center fw-semibold"><i class="bi bi-cpu me-2 fs-3"></i>MediaTek
-                            Dimensity 1200-Ultra</li>
-                        <li class=" d-flex align-items-center fw-semibold"><i
-                                class="bi bi-battery-full me-2 fs-3"></i>5000
-                            mAh</li>
-                        <li class=" d-flex align-items-center fw-semibold"><i
-                                class="bi bi-android me-2 fs-3"></i>Android
-                            11, MIUI 12.5</li>
-                        <li class=" d-flex align-items-center fw-semibold"><i class="bi bi-phone me-2 fs-3"></i>6.67
-                            Inch
-                        </li>
-                        <li class=" d-flex align-items-center fw-semibold"><i class="bi bi-camera me-2 fs-3"></i>16MP,
-                            f/2.45</li>
-                    </ul>
-                    <!--Nhom nut buton ben duoi-->
-                    <div class="row pb-4">
-                        <div class="col-12 col-md-6 mb-2 d-flex justify-content-center ">
-                            <button type="button" class="btn btn-outline-warning fw-semibold">Add to cart <i
-                                    class="bi bi-cart"></i></button>
-                        </div>
-                        <div class="col-12 col-md-6 d-flex justify-content-center mb-2">
-                            <button type="button" class="btn btn-outline-success fw-semibold">Buy now <i
-                                    class="bi bi-cart-check-fill"></i></button>
-                        </div>
+            </div>
+            <!--Thong tin sp-->
+            <div class="col-12 col-md-6 mt-xl-0 mt-4">
+                <h4 class="fw-bold text-center">Xiaomi 11T 8GB-256GB (MediaTek Dimensity 1200-Ultra )</h4>
+                <p class="text-decoration-line-through text-center">Original Price: 9 899 000 VNĐ</p>
+                <h3 class="fw-semibold text-center">New price: 3 959 000 VNĐ <span class="badge bg-success">Off
+                        60%</span></h3>
+                <p>Status: <span class="text-success fs-5 fw-semibold">available</span></p>
+                <p>Desc: Một chiếc điện thoại phù hợp với túi tiền cho học sinh-sinh viên, giá thành rẻ, pin dung
+                    lượng
+                    tầm trung, camera trung, chip mạnh thuộc cận cao. Chơi freefire có thể bật MAX SETTING </p>
+                <p>State: <span class="text-danger">Máy bị xước nhẹ bên ngoài, pin đã qua sử dụng một thời gian,
+                        không
+                        tặng kèm sạc và phụ kiện nào khác!</span></p>
+                <h4 class="text-ceter">Thong tin chi tiet san pham</h4>
+                <ul class="list-unstyled ms-4 ps-4">
+                    <li class=" d-flex align-items-center fw-semibold"><i class="bi bi-cpu me-2 fs-3"></i>MediaTek
+                        Dimensity 1200-Ultra</li>
+                    <li class=" d-flex align-items-center fw-semibold"><i class="bi bi-battery-full me-2 fs-3"></i>5000
+                        mAh</li>
+                    <li class=" d-flex align-items-center fw-semibold"><i class="bi bi-android me-2 fs-3"></i>Android
+                        11, MIUI 12.5</li>
+                    <li class=" d-flex align-items-center fw-semibold"><i class="bi bi-phone me-2 fs-3"></i>6.67
+                        Inch
+                    </li>
+                    <li class=" d-flex align-items-center fw-semibold"><i class="bi bi-camera me-2 fs-3"></i>16MP,
+                        f/2.45</li>
+                </ul>
+                <!--Nhom nut buton ben duoi-->
+                <div class="row pb-4">
+                    <div class="col-12 col-md-6 mb-2 d-flex justify-content-center ">
+                        <button type="button" class="btn btn-outline-warning fw-semibold">Add to cart <i
+                                class="bi bi-cart"></i></button>
+                    </div>
+                    <div class="col-12 col-md-6 d-flex justify-content-center mb-2">
+                        <button type="button" class="btn btn-outline-success fw-semibold">Buy now <i
+                                class="bi bi-cart-check-fill"></i></button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-
+    <div class="footer container-fluid px-3 bg-secondary text-light" id="FOOTER"></div>
     <script type="module" src="JS/Page_2/product_detail.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"

@@ -1,2 +1,2 @@
-import { loadHeader } from "../helper_function_all.js"
-loadHeader();
+import { loadHeaderFooter } from "../helper_function_all.js"
+loadHeaderFooter();
