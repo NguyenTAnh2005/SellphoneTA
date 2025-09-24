@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <nav class="navbar bg-red navbar-expand-xl px-5" id="HEADER"></nav>
+    <nav class="navbar bg-red navbar-expand-xl " id="HEADER"></nav>
     <style>
         .text-justify {
             text-align: justify;
@@ -26,15 +26,10 @@
     <!--NOI DUNG CHINH-->
     <div class="main mt-4 container-fluid">
         <div class="row d-flex justify-content-evenly">
-            <div class="col-12 col-xl-7 bg-secondary">
+            <div class="col-12 col-xl-7">
                 <div class="carousel slide" data-bs-ride="carousel" id="index_banner">
                     <!--SLIDE-->
                     <div class="carousel-inner">
-                        <style>
-                            .carousel-item>img {
-                                /* height: 500px; */
-                            }
-                        </style>
                         <div class="carousel-item active">
                             <img src="Images/header_banner/home_banner_1.png" class="d-block w-100">
                         </div>
@@ -72,8 +67,8 @@
                     </style>
                 </div>
             </div>
-            <div class="col-12 col-xl-4 mt-3 mt-xl-0">
-                <div class="card">
+            <div class="col-12 col-xl-4 mt-3 mt-xl-0 d-flex align-items-center">
+                <div class="card border-0">
                     <img src="Images/present_img.png" class=" img-fluid w-25 mx-auto">
                     <div class="card-body">
                         <h3 class="text-center fw-semibold text-danger mb-3">Welcome to SellPhone TA super Vjppro!</h3>
@@ -81,10 +76,10 @@
                             sách bảo hành minh bạch, SellPhone TA luôn đặt quyền lợi khách hàng lên hàng đầu.</p>
                         <p class="text-justify">Với cam kết uy tín tuyệt đối, kiểm tra kỹ lưỡng từng sản phẩm và chính
                             sách bảo hành minh bạch, SellPhone TA luôn đặt quyền lợi khách hàng lên hàng đầu.</p>
-                        <p class="text-center fw-semibold mt-3 fs-4">
-                            <i class="bi bi-emoji-kiss me-2 fw-semibold"></i>
+                        <p class="text-center fw-medium mt-3 fs-5">
+                            <i class="bi bi-emoji-kiss me-1 fw-semibold"></i>
                             Chúc các bạn mua sắm vui vẻ !
-                            <i class="bi bi-emoji-sunglasses ms-2 fw-semibold"></i>
+                            <i class="bi bi-emoji-sunglasses ms-1 fw-semibold"></i>
                         </p>
 
                     </div>
@@ -93,7 +88,38 @@
             </div>
         </div>
 
-        <div class="footer container-fluid pb-3 mt-4 bg-secondary text-light" id="FOOTER"></div>
+        <div class="container-fluid mt-5 border-danger rounded-5">
+            <div class="row bg-red g-0 text-light rounded-top-5">
+                <div class="col-12 col-md-9 text-md-start text-center">
+                    <span class="fs-2 fw-semibold ms-4"><i class="bi bi-fire me-2"></i>HOT SALE</span>
+                </div>
+                <div class="col-12 col-md-3 align-content-center text-center text-md-end">
+                    <span class="fs-5 fw-semibold text-end me-4">
+                        <i class="bi bi-calendar-check-fill me-2 "></i>
+                        25/09/2025 - 31/10/2025
+                    </span>
+                </div>
+            </div>
+            <div class="card border-danger border-2 rounded-bottom-5 rounded-top-0">
+                <div class="px-2 px-md-3 px-lg-4 row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-6"
+                    id="hotsale_list">
+
+                </div>
+                <div class="mx-auto mb-2">
+                    <button class="btn btn-outline-danger rounded-pill">
+                        <a class="text-decoration-none text-reset d-block mx-auto fs-5 fw-medium" href="sale.html">
+                            <i class="bi bi-box-arrow-right"></i>
+                            See All
+                        </a>
+                    </button>
+                </div>
+
+
+            </div>
+            <!-- <img src="Images/header_banner/home_banner_4.png" class="w-100" alt=""> -->
+        </div>
+
+        <div class="footer container-fluid mt-4 bg-secondary text-light" id="FOOTER"></div>
         <script type="module" src="JS/Page_1/index.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"

@@ -250,21 +250,22 @@ export function addProductToList(id_list, arr_product) {
     const list_html = document.getElementById(id_list);
     arr_product.forEach(item => {
         list_html.innerHTML += `
-        <div class="col-12 col-sm-6 col-md-3 my-4 ">
-                <div class="card py-3" id="product_item">
+        <div class="col my-4 ">
+                <div class="card py-3 border-2 rounded-4" id="product_item">
                     <div class="card_img d-flex justify-content-center">
-                        <img class="card-img-top product_img" src="./Images/List_product_Lab00/${item[0]}.png"
-                            style="width: 150px;height: 150px;">
+                        <img class="w-75 mx-auto product_img" src="./Images/List_product_Lab00/${item[0]}.png">
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title text-center text-truncate fw-bold">${item[1]}</h5>
-                        <p class="text-decoration-line-through text-center">Org Price: ${item[2]}.000 vnđ</p>
-                        <p class="fw-semibold d-flex justify-content-evenly">
+                        <h5 class=" text-center text-truncate fw-bold">${item[1]}</h5>
+                        <div class="row">
+                            <span class="badge bg-danger rounded-pill mx-auto py-2 w-50 mb-2">OFF ${item[4]}</span>
+                        <div>
+                        <p class="text-decoration-line-through text-truncate text-center">Org Price: ${item[2]}.000 vnđ</p>
+                        <span class="fw-semibold d-flex justify-content-center gap-0">
                             New Price: <span class="text-success">${item[3]}.000 vnđ</span>
-                            <span class="badge bg-danger d-flex align-items-center">OFF ${item[4]}</span>
-                        </p>
-                        <div class=" row d-flex justify-content-evenly">
-                            <a class=" col-12 col-md-5 btn btn-outline-primary rounded-pill" type="button" href="product_detail.html">Click = GAY</a>
+                        </span>
+                        <div class=" row d-flex mt-lg-4 mt-1 mt-md-2">
+                            <a class="mx-auto w-50 btn btn-outline-primary rounded-pill" type="button" href="product_detail.html">See more</a>
                         </div>
                     </div>
 
