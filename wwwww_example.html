@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.min.css"
+        integrity="sha512-t7Few9xlddEmgd3oKZQahkNI4dS6l80+eGEzFQiqtyVYdvcSG2D3Iub77R20BdotfRPA9caaRkg1tyaJiPmO0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="CSS/header.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <title>SellphoneTA</title>
+</head>
+
+<body>
+
+    <form method="post"
+        class=" container card my-4 border-black border-2 border-primary rounded-3 overflow-hidden py-4 gap-4">
+        <!--FORM CON 1-->
+        <div class="row border-bottom-2 border-warning border rounded-3">
+            <h2 class="text-center bg-warning text-primary">Thong tin nha tuyen dung</h2>
+            <div class="col-12 col-md-4 form-floating mb-4">
+                <input type="text" class="form-control border-dark" id="f1_ip1" name="EmployerName" placeholder="">
+                <label for="f1_ip1" class="form-label text-black ms-2 mb-4">Ten nha tuyen dung</label>
+            </div>
+            <div class="col-12 col-md-5 form-floating mb-4">
+                <label for="f1_ip2" class="form-label"></label>
+                <select name="TypeCompany" id="f1_ip2" class="form-select border-dark">
+                    <option value="" hidden selected disabled>Chon Loai hinh doanh nghiep</option>
+                </select>
+            </div>
+            <div class="col-12 col-md-3 form-floating md-4">
+                <input type="text" class="form-control border-dark" id="f1_ip3" name="CountStaff" placeholder="">
+                <label for="f1_ip3" class="ms-2 form-label text-black">So luong nhan vien</label>
+            </div>
+        </div>
+        <!--FORM CON 2-->
+        <div class="row border-bottom-2 border-warning border rounded-3">
+            <h2 class="text-center bg-warning text-primary">Thong tin lien he</h2>
+            <div class="col-12 col-md-4 form-floating mb-4">
+                <input type="text" class="form-control border-dark" id="f2_ip1" name="HotlineName" placeholder="">
+                <label for="f2_ip1" class="form-label text-black ms-2 mb-4">Nguoi lien he</label>
+            </div>
+            <div class="col-12 col-md-4 form-floating mb-4">
+                <textarea class="form-control border-dark" name="HotlineAddress" id="f2_ip2" placeholder=""></textarea>
+                <label for="f2_ip1" class="text-black ms-2 mb-4">Dia chi </label>
+            </div>
+            <div class="col-12 col-md-4 form-floating mb-4">
+                <input type="text" class="form-control border-dark" id="f2_ip3" name="Hotline" placeholder="">
+                <label for="f2_ip3" class="form-label text-black ms-2 mb-4">So dien thoai</label>
+            </div>
+            <div class="col-12 col-md-6 form-floating mb-4">
+                <input type="email" class="form-control border-dark" id="f2_ip4" name="HotlineEmail" placeholder="">
+                <label for="f2_ip4" class="ms-2 form-label text-black">Email</label>
+            </div>
+            <div class="col-12 col-md-6 form-floating mb-4">
+                <input type="text" class="form-control border-dark" id="f2_ip5" name="HotlineEmail" placeholder="">
+                <label for="f2_ip5" class="ms-2 form-label text-black">Website</label>
+            </div>
+        </div>
+        <!--FORM CON 3-->
+        <div class="row border-bottom-2 border-warning border rounded-3">
+            <h2 class="text-center bg-warning text-primary">Thong tin dang nhap</h2>
+            <div class="col-12 col-md-4 form-floating mb-4">
+                <input type="text" class="form-control border-dark" id="f3_ip1" name="HotlineName" placeholder="">
+                <label for="f3_ip1" class="form-label text-black ms-2 mb-4">Email</label>
+            </div>
+            <div class="col-12 col-md-4 form-floating mb-4">
+                <textarea class="form-control border-dark" name="HotlineAddress" id="f3_ip2" placeholder=""></textarea>
+                <label for="f3_ip2" class="text-black ms-2 mb-4">Mat khau</label>
+            </div>
+            <div class="col-12 col-md-4 form-floating mb-4">
+                <input type="text" class="form-control border-dark" id="f3_ip3" name="Hotline" placeholder="">
+                <label for="f3_ip3" class="form-label text-black ms-2 mb-4">Xac nhan mat khau</label>
+            </div>
+        </div>
+        <!--FORM CON 4-->
+        <div class="row border-bottom-2 border-warning border rounded-3 pb-4">
+            <h2 class="text-center bg-warning text-primary">Nhan Email</h2>
+            <div class="d-flex justify-content-center gap-4">
+                <span class="me-5">Nhan thong bao den email</span>
+                <div class="form-check px-4">
+                    <input class="form-check-input" type="radio" name="GetEmail" id="f4_rd1">
+                    <label class="form-check-label" for="f4_rd1">Yé</label>
+                </div>
+                <div class="form-check px-4">
+                    <input class="form-check-input" type="radio" name="GetEmail" id="f4_rd2" checked>
+                    <label class="form-check-label" for="f4_rd2"> No</label>
+                </div>
+            </div>
+        </div>
+        <!--btn-->
+        <div class="d-flex justify-content-center gap-5">
+            <span class="btn btn-warning rounded-start-pill fs-5"> Update </span>
+            <button class="btn btn-secondary rounded-end-pill fs-5"> Cancel </button>
+        </div>
+
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>

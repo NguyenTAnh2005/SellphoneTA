@@ -1,6 +1,6 @@
 // HAM LOAD HEADER
 import { loadHeaderFooter } from "../helper_function_all.js"
-loadHeaderFooter();
+loadHeaderFooter("./");
 
 // Load product sale
 
@@ -20,3 +20,22 @@ const arr_2_product = [
     ["pdt6", "FreeFire is number one", "13.590", "7.475", "45%"]
 ]
 addProductToList("hotsale_list", arr_2_product);
+addProductToList("phone_special_list", arr_2_product);
+const str = "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit nesciunt commodi expedita dolorum, ipsa quod? Labore fuga ut delectus itaque? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit nesciunt commodi expedita dolorum, ipsa quod? Labore fuga ut delectus itaque?"
+const arr_blog = [
+    ["blog_id_1", "blog_img_1", "Top 5 khau sung manh nhat FF", str, "https://sv.bdu.edu.vn/#/home"],
+    ["blog_id_2", "blog_img_2", "Top 5 khau sung manh nhat FF", str, "https://sv.bdu.edu.vn/#/home"],
+    ["blog_id_3", "blog_img_1", "Top 5 khau sung manh nhat FF", str, "https://sv.bdu.edu.vn/#/home"],
+    ["blog_id_4", "blog_img_2", "Top 5 khau sung manh nhat FF", str, "https://sv.bdu.edu.vn/#/home"],
+    ["blog_id_5", "blog_img_1", "Top 5 khau sung manh nhat FF", str, "https://sv.bdu.edu.vn/#/home"],
+    ["blog_id_6", "blog_img_2", "Top 5 khau sung manh nhat FF", str, "https://sv.bdu.edu.vn/#/home"],
+    ["blog_id_7", "blog_img_2", "Top 5 khau sung manh nhat FF", str, "https://sv.bdu.edu.vn/#/home"],
+    ["blog_id_8", "blog_img_1", "Top 5 khau sung manh nhat FF", str, "https://sv.bdu.edu.vn/#/home"],
+    ["blog_id_9", "blog_img_2", "Top 5 khau sung manh nhat FF", str, "https://sv.bdu.edu.vn/#/home"],
+    ["blog_id_10", "blog_img_1", "Top 5 khau sung manh nhat FF", str, "https://sv.bdu.edu.vn/#/home"],
+    ["blog_id_11", "blog_img_2", "Top 5 khau sung manh nhat FF", str, "https://sv.bdu.edu.vn/#/home"]
+]
+import { addBlogToList } from "../helper_function_all.js";
+addBlogToList("blog_list", arr_blog);
+import { updateModal } from "../helper_function_all.js";
+updateModal();

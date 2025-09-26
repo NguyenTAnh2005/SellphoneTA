@@ -1,6 +1,6 @@
 // HAM LOAD HEADER 
 import { loadHeaderFooter } from "../helper_function_all.js"
-loadHeaderFooter();
+loadHeaderFooter("./");
 
 // LOad Dl item vao list 
 const arr_2_product = [
