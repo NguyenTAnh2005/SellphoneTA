@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.min.css"
+        integrity="sha512-t7Few9xlddEmgd3oKZQahkNI4dS6l80+eGEzFQiqtyVYdvcSG2D3Iub77R20BdotfRPA9caaRkg1tyaJiPmO0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../CSS/index.css">
+    <link rel="stylesheet" href="../CSS/header.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <title>PRODUCT DETAILS</title>
+</head>
+
+<body>
+    <nav class="navbar bg-red navbar-expand-xl" id="HEADER"></nav>
+    <div class="container px-4 card border-0 px-2 py-4 mb-1">
+        <h2 class="col-12 text-center m-0 mb-5">Product Details</h2>
+        <div class="row justify-content-center">
+            <!--Slide san pham-->
+            <div class="col-12 col-xl-6 animate__animated animate__zoomIn d-flex align-items-center">
+                <div class="carousel slide" id="myCarouselSlide">
+                    <!-- Cac anh trong slide -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../Images/Carousel/img_slide_1.png" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../Images/Carousel/img_slide_2.png" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../Images/Carousel/img_slide_3.png" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../Images/Carousel/img_slide_4.png" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../Images/Carousel/img_slide_5.png" class="d-block w-100">
+                        </div>
+                    </div>
+
+                    <!-- Nut dieu huong slide -->
+                    <!-- Prev -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#myCarouselSlide"
+                        data-bs-slide="prev">
+                        <i class="bi bi-arrow-left-circle fs-1 text-black"></i>
+                    </button>
+
+                    <!-- Next -->
+                    <button class="carousel-control-next" type="button" data-bs-target="#myCarouselSlide"
+                        data-bs-slide="next">
+                        <i class="bi bi-arrow-right-circle fs-1 text-black"></i>
+                    </button>
+
+                    <!-- CHam tron hien thi vi tri slide -->
+                    <div class="carousel-indicators mb-0">
+                        <button type="button" data-bs-target="#myCarouselSlide" data-bs-slide-to="0"
+                            class="active"></button>
+                        <button type="button" data-bs-target="#myCarouselSlide" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#myCarouselSlide" data-bs-slide-to="2"></button>
+                        <button type="button" data-bs-target="#myCarouselSlide" data-bs-slide-to="3"></button>
+                        <button type="button" data-bs-target="#myCarouselSlide" data-bs-slide-to="4"></button>
+
+                        <style>
+                            .carousel-indicators [data-bs-target] {
+                                background-color: rgb(96, 88, 88);
+                            }
+
+                            .carousel-indicators .active {
+                                background-color: #000;
+                            }
+                        </style>
+                    </div>
+                </div>
+            </div>
+            <!--Ten + desc + trang thai-->
+            <div
+                class="col-12 col-xl-6 mt-xl-0 mt-4 border border-dark border-1 rounded-4 animate__animated animate__zoomIn">
+                <h4 class="fw-bold text-center">Xiaomi 11T 8GB-256GB (MediaTek Dimensity 1200-Ultra )</h4>
+                <div class=" d-flex justify-content-center align-items-center gap-2 position-relative flex-wrap">
+                    <sub class="text-decoration-line-through fw-medium">9.899.000 VNĐ</sub>
+                    <span class="badge bg-success rounded-pill">
+                        <i class="bi bi-arrow-down-short fs-6"></i>
+                        40%
+                    </span>
+                    <span class="fw-semibold text-danger h3 ">3.959.000 VNĐ</span>
+
+                </div>
+                <!-- <p class="text-decoration-line-through text-center">9 899 000 VNĐ</p>
+                <h3 class="fw-semibold text-center">New price: 3 959 000 VNĐ <span class="badge bg-success">Off
+                        60%</span></h3> -->
+                <p>Status: <span class="text-success fs-5 fw-semibold">available</span></p>
+                <p>Desc: Một chiếc điện thoại phù hợp với túi tiền cho học sinh-sinh viên, giá thành rẻ, pin dung
+                    lượng
+                    tầm trung, camera trung, chip mạnh thuộc cận cao. Chơi freefire có thể bật MAX SETTING </p>
+                <p>State: <span class="text-danger">Máy bị xước nhẹ bên ngoài, pin đã qua sử dụng một thời gian,
+                        không
+                        tặng kèm sạc và phụ kiện nào khác!</span></p>
+
+            </div>
+            <!--Thong tin chi tiet: ram, rom,...-->
+            <div class="row border border-dark border-1 rounded-4 mt-3 mb-2 animate__animated animate__zoomIn ">
+                <h4 class="text-center">Thong tin chi tiet san pham</h4>
+                <ul class=" row row-cols-xxl-4 row-cols-md-2 row-cols-1 row-cols-lg-3 list-unstyled ms-4 ps-4">
+                    <li class=" col d-flex align-items-center fw-semibold fs-6"><i
+                            class="bi bi-cpu me-2 fs-3"></i>MediaTek
+                        Dimensity 1200-Ultra</li>
+                    <li class=" col d-flex align-items-center fw-semibold"><i
+                            class="bi bi-battery-full me-2 fs-3"></i>5000
+                        mAh</li>
+                    <li class=" col d-flex align-items-center fw-semibold"><i
+                            class="bi bi-android me-2 fs-3"></i>Android
+                        11, MIUI 12.5</li>
+                    <li class=" col d-flex align-items-center fw-semibold"><i class="bi bi-phone me-2 fs-3"></i>6.67
+                        inch
+                    </li>
+                    <li class=" col d-flex align-items-center fw-semibold"><i class="bi bi-camera me-2 fs-3"></i>16MP,
+                        f/2.45</li>
+                    <li class=" col d-flex align-items-center fw-semibold"><i class="bi bi-earbuds me-2 fs-3"></i>USB-C
+                    </li>
+                    <li class=" col d-flex align-items-center fw-semibold"><i class="fa-solid fa-sim-card fs-4"></i>1
+                        sim card
+                    </li>
+                    <li class=" col d-flex align-items-center fw-semibold">
+                        <i class="bi bi-battery-charging me-2 fs-3"></i>Type C
+                    </li>
+                    <li class=" col d-flex align-items-center fw-semibold">
+                        <i class="fa-brands fa-nfc-symbol me-2 fs-4"></i></i>Have NFC
+                    </li>
+                    <li class=" col d-flex align-items-center fw-semibold">
+                        <i class="fa-solid fa-memory me-2 fs-4"></i>8GB RAM<sup>(+8GB virtual)</sup>
+                    </li>
+                    <li class=" col d-flex align-items-center fw-semibold">
+                        <i class="fa-solid fa-database me-2 fs-4"></i> 256GB ROM <sup> (have memory-card)</sup>
+                    </li>
+                    <li class=" col d-flex align-items-center fw-semibold">
+                        <i class="bi bi-palette me-2 fs-3"></i> Black
+                    </li>
+                </ul>
+            </div>
+            <!--Nhom nut buton ben duoi-->
+            <hr>
+            <div class="row pb-4 bg-dark rounded-4 py-3 mb-2 animate__animated animate__zoomIn">
+                <div class="col-12 col-md-6 mb-2 mb-md-0 d-flex justify-content-center ">
+                    <button type="button" class="btn btn-outline-warning fw-semibold">Add to cart <i
+                            class="bi bi-cart"></i></button>
+                </div>
+                <div class="col-12 col-md-6 d-flex justify-content-center">
+                    <button type="button" class="btn btn-outline-success fw-semibold">Buy now <i
+                            class="bi bi-cart-check-fill"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer container-fluid px-3 bg-secondary text-light" id="FOOTER"></div>
+    <script type="module" src="../JS/Page_2/product_detail.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.min.css"
+        integrity="sha512-t7Few9xlddEmgd3oKZQahkNI4dS6l80+eGEzFQiqtyVYdvcSG2D3Iub77R20BdotfRPA9caaRkg1tyaJiPmO0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container bg-warning mt-4 p-2 rounded-2">
+        <!--Thanh ben tren-->
+        <div class="d-flex justify-content-between">
+            <h3>Manage <span class="fw-bold">Employees</span></h3>
+            <div class="d-flex">
+                <button class="btn btn-danger me-3"><i class="bi bi-trash3-fill me-2"></i>Delete</button>
+                <button class="btn btn-success"><i class="bi bi-person-fill-add me-2"></i>Add New Employees</button>
+            </div>
+        </div>
+        <!--Phan Table-->
+        <div class="table-responsive mt-4">
+            <table class="table table-bordered border-2 border-primary table-hover align-middle">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Select</th>
+                        <th>Name</th>
+                        <th>Id</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                        <th>Address</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="table_body">
+
+                </tbody>
+            </table>
+        </div>
+        <script>
+            arr_employees = [
+                ["Nguyễn Tuấn Anh", "EP-118", "23050118@student.bdu.edu.vn", "032884320", "Hà Tĩnh, Việt Nam"],
+                ["Lê Ngọc Sang", "EP-084", "23050084@student.bdu.edu.vn", "032884320", "Kiên Giang, Việt Nam"],
+                ["Nguyễn Mạnh Phát", "EP-099", "23050099@student.bdu.edu.vn", "032884320", "Long An, Việt Nam"],
+                ["Lê Đình Tuyển", "EP-100", "23050100@student.bdu.edu.vn", "032884320", "Đồng Nai, Việt Nam"],
+                ["GAY Gay gay", "EP-Gay", "gay@freefire.com", "032884320", "Cổng trời, Đảo Quân Sự"]
+            ];
+            function addDataToTable(id_table, arr) {
+                const table = document.getElementById(id_table);
+                arr.forEach(ep => {
+                    table.innerHTML += `
+                    <tr>
+                        <td class="text-center"><input type="checkbox"></td>
+                        <td>${ep[0]}</td>
+                        <td>${ep[1]}</td>
+                        <td>${ep[2]}</td>
+                        <td>${ep[3]}</td>
+                        <td>${ep[4]}</td>
+                        <td class="d-flex justify-content-evenly">
+                            <i class="btn bi bi-pencil-fill text-primary fs-5"></i>
+                            <i class="btn bi bi-trash-fill text-danger fs-5"></i>
+                        </td>
+                    </tr>
+                    `;
+                });
+            }
+            addDataToTable("table_body", arr_employees);
+        </script>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

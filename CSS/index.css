@@ -1,0 +1,5 @@
+.blog_card:hover {
+    border-color: red;
+    scale: 1.025;
+    background-color: rgb(202, 194, 194);
+}

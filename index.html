@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.min.css"
+        integrity="sha512-t7Few9xlddEmgd3oKZQahkNI4dS6l80+eGEzFQiqtyVYdvcSG2D3Iub77R20BdotfRPA9caaRkg1tyaJiPmO0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/header.css">
+    <link rel="stylesheet" href="CSS/collective.css">
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <title>SellphoneTA</title>
+</head>
+
+<body style="
+  background-image: url('Images/header_banner/a.png');
+  background-size: cover;         /* phóng ảnh để phủ full màn */
+  background-repeat: no-repeat;   /* không lặp */
+  background-position: center;    /* căn giữa */
+  background-attachment: fixed;   /* (tuỳ chọn) cố định khi cuộn */
+">
+    <nav class="navbar bg-red navbar-expand-xl sticky-top animate__animated animate__zoomIn" id="HEADER"></nav>
+
+    <!--NOI DUNG CHINH-->
+    <div class="main mt-4 container-fluid">
+        <div class="row d-flex justify-content-evenly align-items-center">
+            <!--SLide Banner-->
+            <div class="col-12 col-xl-7 animate__animated animate__zoomIn">
+                <div class="border border-3 border-light rounded-4 overflow-hidden">
+                    <div class="carousel slide " data-bs-ride="carousel" id="index_banner">
+                        <!--SLIDE-->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img loading="lazy" src="Images/header_banner/home_banner_1.png" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img loading="lazy" src="Images/header_banner/home_banner_2.png" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img loading="lazy" src="Images/header_banner/home_banner_3.png" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img loading="lazy" src="Images/header_banner/home_banner_4.png" class="d-block w-100">
+                            </div>
+                        </div>
+                        <!--Dieu HUONG PREV, NEXT-->
+                        <button class="carousel-control-prev" type="button" data-bs-slide="prev"
+                            data-bs-target="#index_banner" aria-hidden="true">
+                            <i class="bi bi-caret-left-square text-light fs-1"></i>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-slide="next"
+                            data-bs-target="#index_banner" aria-hidden="true">
+                            <i class="bi bi-caret-right-square text-light fs-1"></i>
+                        </button>
+                        <!--HIEN THI VI TRI-->
+                        <div class="carousel-indicators mb-0">
+                            <button type="button" data-bs-target="#index_banner" class="active"
+                                data-bs-slide-to="0"></button>
+                            <button type="button" data-bs-target="#index_banner" data-bs-slide-to="1"></button>
+                            <button type="button" data-bs-target="#index_banner" data-bs-slide-to="2"></button>
+                            <button type="button" data-bs-target="#index_banner" data-bs-slide-to="3"></button>
+                        </div>
+                        <style>
+                            .carousel-indicators .active {
+                                background-color: #000;
+                            }
+                        </style>
+                    </div>
+                </div>
+
+            </div>
+            <!--GT WEB-->
+            <div class="col-12 col-xl-4 mt-3 mt-xl-0 d-flex align-items-center animate__animated animate__zoomIn">
+                <div class="card border-2 border-danger rounded-4">
+                    <img loading="lazy" src="Images/present_img.png" class=" img-fluid w-25 mx-auto">
+                    <div class="card-body">
+                        <h3 class="text-center fw-semibold text-danger mb-3">Welcome to SellPhone TA super Vjppro!</h3>
+                        <p class="text-justify">SellPhone TA – nơi bạn dễ dàng tìm thấy những chiếc điện thoại cũ chất
+                            lượng cao, giá hợp lý. Lấy cảm hứng từ Cellphones, chúng tôi hướng đến việc mang công nghệ
+                            trong tầm tay cho mọi người, đặc biệt là học sinh – sinh viên.</p>
+                        <p class="text-justify">Với cam kết uy tín tuyệt đối, kiểm tra kỹ lưỡng từng sản phẩm và chính
+                            sách bảo hành minh bạch, SellPhone TA luôn đặt quyền lợi khách hàng lên hàng đầu.</p>
+                        <p class="text-center fw-medium mt-3 fs-5">
+                            <i class="bi bi-emoji-kiss me-1 fw-semibold"></i>
+                            Chúc các bạn mua sắm vui vẻ !
+                            <i class="bi bi-emoji-sunglasses ms-1 fw-semibold"></i>
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!--DS SP SALE-->
+        <div class="container-fluid mt-5 px-4 border-danger rounded-5 animate__animated animate__zoomIn">
+            <div class="row bg-red g-0 text-light rounded-top-5 ">
+                <div class="col-12 col-md-9 text-md-start text-center text-uppercase">
+                    <span class="fs-2 fw-semibold ms-4"><i class="bi bi-fire me-2"></i>HOT SALE</span>
+                </div>
+                <div class="col-12 col-md-3 align-content-center text-center text-md-end">
+                    <span class="fs-5 fw-semibold text-end me-4">
+                        <i class="bi bi-calendar-check-fill me-2 "></i>
+                        25/09/2025 - 31/10/2025
+                    </span>
+                </div>
+            </div>
+            <div class="card border-danger border-2 rounded-bottom-5 rounded-top-0">
+                <div class="px-2 px-md-3 px-lg-4 row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-6 overflow-y-auto"
+                    style="max-height: 450px;" id="hotsale_list">
+
+                </div>
+                <div class="mx-auto mx-2">
+                    <button class="btn btn-outline-danger rounded-pill">
+                        <a class="text-decoration-none text-reset d-block mx-auto fs-5 fw-medium" href="sale.html">
+                            <i class="bi bi-box-arrow-right"></i>
+                            See All
+                        </a>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- DS SP Noi Bat THEO HANG -->
+        <div class="container-fluid mt-5 px-4 border-danger rounded-5 animate__animated animate__zoomIn">
+            <div class="row bg-red g-0 text-light rounded-top-5 ">
+                <div class="col text-center text-capitalize">
+                    <span class="fs-2 fw-semibold ms-4">
+                        <i class="bi bi-phone-vibrate"></i>
+                        san pham noi bat
+                    </span>
+                </div>
+            </div>
+            <div class="card border-danger border-2 rounded-bottom-5 rounded-top-0">
+                <div class="px-2 px-md-3 px-lg-4 row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-6 overflow-y-auto"
+                    style="max-height: 450px;" id="phone_special_list">
+
+                </div>
+                <div class="mx-auto mx-2">
+                    <button class="btn btn-outline-danger rounded-pill">
+                        <a class="text-decoration-none text-reset d-block mx-auto fs-5 fw-medium" href="phone.html">
+                            <i class="bi bi-box-arrow-right"></i>
+                            See All
+                        </a>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- DS BLOG THEO HANG -->
+        <div class="container-fluid mt-5 px-4 border-danger rounded-5 animate__animated animate__zoomIn">
+            <div class="row bg-red g-0 text-light rounded-top-5 ">
+                <div class="col text-center text-capitalize">
+                    <span class="fs-2 fw-semibold ms-4">
+                        <i class="bi bi-phone-vibrate"></i>
+                        Bai bao lien quan
+                    </span>
+                </div>
+            </div>
+            <div class="card border-danger border-2 rounded-bottom-5 rounded-top-0">
+                <div class="px-2 px-md-3 px-lg-4 row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 overflow-y-auto"
+                    style="max-height: 450px;" id="blog_list">
+                    <!--Tai them card_blog here-->
+                </div>
+                <div class="mx-auto mx-2">
+                    <button class="btn btn-outline-danger rounded-pill">
+                        <a class="text-decoration-none text-reset d-block mx-auto fs-5 fw-medium" href="phone.html">
+                            <i class="bi bi-box-arrow-right"></i>
+                            See All
+                        </a>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!--MODAL-->
+        <div class="modal fade" id="modalOpenLinkBlog" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="text-center">Attention</h4>
+                        <button class="btn btn-close btn-danger" aria-label="Close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">Sản phẩm web được làm ra phục vụ cho <span class="fw-bold text-danger">mục
+                            đích học tập</span>, một só bài viết sẽ bị
+                        dính bản quần, bạn có muốn tiếp tục</div>
+                    <div class="modal-footer">
+                        <button class="btn btn-secondary" type="button" data-bs-dismiss="modal">
+                            Cancel</button>
+                        <a href="" id="modal_link" class="btn btn-success" type="button">
+                            Continue
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="footer container-fluid mt-4 bg-secondary text-light animate__animated animate__zoomIn" id="FOOTER">
+    </div>
+    <script type="module" src="JS/Page_1/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+
+
+
+
+</body>
+
+</html>
