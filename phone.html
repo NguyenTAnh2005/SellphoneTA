@@ -17,46 +17,56 @@
     <script type="module" defer src="JS/Page_1/phone.js"></script>
 </head>
 
-<body>
-    <nav class="navbar bg-red navbar-expand-xl" id="HEADER"></nav>
+<body data-bs-theme="">
+    <nav class="navbar bg-red navbar-expand-xl sticky-top animate__animated animate__zoomIn" id="HEADER"></nav>
 
-    <div class=" main m-0 container-fluid p-0 px-1 px-xl-3">
+
+    <div class=" main m-0 container-fluid">
         <!--Phan dau-->
-        <div class="row bg-warning py-2 align-items-center gx-2">
+        <div class="row border border-danger py-2 align-items-center">
             <!-- Tên trang -->
-            <div class="col text-center fw-semibold text-uppercase fs-5">
+            <div class="col-12 col-xl-6 text-center fw-semibold text-uppercase fs-5">
                 Khám Phá
             </div>
 
             <!-- Các nút Sort + Search -->
-            <div class="col-auto d-flex align-items-center gap-2">
-                <!-- Sort -->
-                <div class="btn-group" role="group">
-                    <input type="radio" class="btn-check" name="sort_price" id="sort_1" checked>
-                    <label for="sort_1" class="btn btn-outline-danger">Giá</label>
-
-                    <input type="radio" class="btn-check" name="sort_price" id="sort_2">
-                    <label for="sort_2" class="btn btn-outline-danger">Tăng</label>
-
-                    <input type="radio" class="btn-check" name="sort_price" id="sort_3">
-                    <label for="sort_3" class="btn btn-outline-danger">Giảm</label>
-                </div>
-
-                <!-- Ô tìm kiếm -->
-                <div class="input-group">
+            <!-- Ô tìm kiếm -->
+            <div class="col-xl-3 col-md-6 col-12">
+                <div class=" input-group ">
                     <input type="text" class="form-control" placeholder="Tìm sản phẩm...">
                     <button class="btn btn-danger"><i class="bi bi-search"></i></button>
                 </div>
             </div>
+            <!-- Sort -->
+            <div class="col-xl-3 col-md-6 col-12 d-flex justify-content-center">
+                <div class="btn-group" role="group">
+                    <input type="radio" class="btn-check" name="sort_price" id="sort_1" checked>
+                    <label for="sort_1" class="btn btn-outline-danger">Default</label>
+
+                    <input type="radio" class="btn-check" name="sort_price" id="sort_2">
+                    <label for="sort_2" class="btn btn-outline-danger d-flex">
+                        <i class="bi bi-arrow-up"></i>
+                        Increase
+                    </label>
+                    <input type="radio" class="btn-check" name="sort_price" id="sort_3">
+                    <label for="sort_3" class="btn btn-outline-danger d-flex">
+                        <i class="bi bi-arrow-down"></i>
+                        Decrease
+                    </label>
+                </div>
+            </div>
         </div>
-        <!--FILTER-->
+
+
         <!-- Nút mở Filter -->
-        <button class="btn btn-danger" data-bs-toggle="offcanvas" data-bs-target="#filterCanvas">
-            <i class="bi bi-funnel"></i> Lọc
-        </button>
+        <div class="mb-4 mt-2">
+            <button class="btn btn-danger" data-bs-toggle="offcanvas" data-bs-target="#filterCanvas">
+                <i class="bi bi-funnel"></i> Lọc
+            </button>
+        </div>
 
         <!-- Offcanvas Filter -->
-        <div class="offcanvas offcanvas-start w-75" tabindex="-1" id="filterCanvas">
+        <div class="offcanvas offcanvas-start w-50" tabindex="-1" id="filterCanvas" data-bs-theme="">
             <div class="offcanvas-header">
                 <h5 class="offcanvas-title">Filter</h5>
                 <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
@@ -113,9 +123,12 @@
                 </div>
             </div>
         </div>
-        <div>
-        </div>
 
+        <!--Phan phan trang cac product-->
+        <nav>
+            <ul class="pagination justify-content-center" id="pagination">
+            </ul>
+        </nav>
     </div>
 
     <div class="footer mt-4 container-fluid px-3 bg-secondary text-light" id="FOOTER"></div>

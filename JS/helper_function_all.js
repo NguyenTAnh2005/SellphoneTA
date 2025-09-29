@@ -164,7 +164,7 @@ function getHtml_Footer(level) {
             </div>
         </div>
         <div class="d-flex justify-content-center">
-            <a class="btn btn-warning text-decoration-none text-reset" href="#HEADER">Header</a>
+            <a class="btn btn-warning text-decoration-none text-reset" href="#">Header</a>
         </div>
         <style>
             html{
@@ -173,7 +173,6 @@ function getHtml_Footer(level) {
         </style>
     `
 }
-
 
 // Ham tai header
 export function loadHeaderFooter(level) {
@@ -208,8 +207,8 @@ export function addProductToList(id_list, arr_product) {
     const list_html = document.getElementById(id_list);
     arr_product.forEach(item => {
         list_html.innerHTML += `
-        <a class="col mt-5 text-decoration-none text-reset" href="second_page/product_detail.html" title="${item[1]}">
-                <div class="card py-2 px-2 border-1 border-danger rounded-2" id="product_item">
+        <a class="col mt-4 text-decoration-none text-reset" href="second_page/product_detail.html" title="${item[1]}">
+                <div class="card p-1 border-1 border-danger rounded-2" id="product_item">
                     <div class="card_img d-flex justify-content-center">
                         <img loading="lazy" class="w-50 mx-auto product_img" src="Images/List_product_Lab00/${item[0]}.png">
                     </div>
