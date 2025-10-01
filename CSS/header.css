@@ -17,3 +17,8 @@
     font-weight: 500;
     color: white;
 }
+
+.form-floating>.form-control:focus~label,
+.form-floating>.form-control:not(:placeholder-shown)~label {
+    transform: scale(.85) translateY(-1.25rem) translateX(.15rem) !important;
+}

@@ -163,9 +163,6 @@ function getHtml_Footer(level) {
                 </p>
             </div>
         </div>
-        <div class="d-flex justify-content-center">
-            <a class="btn btn-warning text-decoration-none text-reset" href="#">Header</a>
-        </div>
         <style>
             html{
                 scroll-behavior: smooth;
@@ -181,7 +178,6 @@ export function loadHeaderFooter(level) {
 }
 
 // Ham hien - an mat khau 
-
 export function ChangeTypePass(id_input) {
     const input = document.getElementById(id_input);
     const eye_icon = document.getElementById(id_input + "_eye");
@@ -202,60 +198,75 @@ export function ChangeTypePass(id_input) {
     })
 }
 
-// Ham them DL gia lap vao list san pham 
-export function addProductToList(id_list, arr_product) {
-    const list_html = document.getElementById(id_list);
-    arr_product.forEach(item => {
-        list_html.innerHTML += `
-        <a class="col mt-4 text-decoration-none text-reset" href="second_page/product_detail.html" title="${item[1]}">
+// Render html voi cac dau vao
+//=> TOi uu code hon 
+export function getHtmlProduct(id, name, org_price, new_price, count_sale) {
+    return `<a class="col mt-4 text-decoration-none text-reset" href="second_page/product_detail.html" title="${name}">
                 <div class="card p-1 border-1 border-danger rounded-2" id="product_item">
                     <div class="card_img d-flex justify-content-center">
-                        <img loading="lazy" class="w-50 mx-auto product_img" src="Images/List_product_Lab00/${item[0]}.png">
+                        <img loading="lazy" class="w-50 mx-auto product_img" src="Images/List_product_Lab00/${id}.png">
                     </div>
                     <div class="card-body pb-0">
-                        <h6 class="text-center text-truncate fw-semibold m-0 text-danger">${item[1]}</h6>
+                        <h6 class="text-center text-truncate fw-semibold m-0 text-danger">${name}</h6>
                             <span class="badge bg-success rounded-pill position-absolute"
                             style="top:1px;right:1px">
                                 <i class="bi bi-arrow-down-short fs-6"></i>
-                                ${item[4]}
+                                ${count_sale}
                             </span>
                         <div class="text-xl-end text-center">
-                            <sub class="mb-1 text-decoration-line-through">${item[2]}.000 vnđ</sub>
+                            <sub class="mb-1 text-decoration-line-through">${org_price}.000 vnđ</sub>
                         </div>
-                        <div class="row text-center text-xl-end fw-medium text-success"><span>${item[3]}.000 vnđ</span></div>
+                        <div class="row text-center text-xl-end fw-medium text-success"><span>${new_price}.000 vnđ</span></div>
                     </div>
                 </div>
-            </a>
-        `
+            </a>`
+}
+
+export function getHtmlBlog(img, title, intro, link) {
+    return `<div class="col my-3">
+            <div class="card px-3 rounded-3 cursor-pointer blog_card" data-bs-toggle="modal" data-bs-target="#modalOpenLinkBlog" data-bs-link="${link}">
+                <img src="Images/Blog_imgs/${img}.png" class="card-img mt-2">
+                <h6 class="fw-semibold text-truncate my-2"> ${title}</h6>
+                <p class="m-0 p-0 mt-1 overflow-hidden" style="max-height:100px;">${intro}</p>
+            </div>
+        </div>`
+}
+
+//HAM THEM DL Product vao list nao do gia lap ket noi den BD bang JSON
+export async function addProductToList(div_target, path_file_json) {
+    let respose = await fetch(path_file_json);
+    let list_pdt = await respose.json();
+
+    //"../../JSON/list_pdt.json"
+    let div_target_html = document.getElementById(div_target);
+    div_target_html.innerHTML = "";
+    list_pdt.forEach(item => {
+        div_target_html.innerHTML += getHtmlProduct(item.id, item.name, item.org_price, item.new_price, item.count_sale);
     });
 }
 
-// Ham them du lieu vao list Blog
+// Ham them Blog vao list nao do => Gia lap thay cho DataBase
+export async function addBlogToList(div_target, path_file_json) {
+    let respose = await fetch(path_file_json);
+    let list_blog = await respose.json();
+    let div_target_html = document.getElementById(div_target);
 
-export function addBlogToList(id_list, arr_blog) {
-    const list_html = document.getElementById(id_list);
-    arr_blog.forEach(item => {
-        list_html.innerHTML += `
-        <div class="col my-3">
-            <div class="card px-3 rounded-3 cursor-pointer blog_card" data-bs-toggle="modal" data-bs-target="#modalOpenLinkBlog" data-bs-link="${item[4]}">
-                <img src="Images/Blog_imgs/${item[1]}.png" class="card-img mt-2">
-                <h6 class="fw-semibold text-truncate my-2"> ${item[2]}</h6>
-                <p class="m-0 p-0 mt-1 overflow-hidden" style="max-height:100px;">${item[3]}</p>
-            </div>
-        </div>
-        `
+    div_target_html.innerHTML = "";
+    list_blog.forEach(bl => {
+        div_target_html.innerHTML += getHtmlBlog(bl.img, bl.title, bl.intro, bl.link);
     })
-
 }
-
-export function updateModal() {
-    let arr_cardblog = document.querySelectorAll(".blog_card");
-    arr_cardblog.forEach(card_item => {
-        card_item.addEventListener("click", () => {
-            var link = card_item.getAttribute("data-bs-link");
-            document.getElementById("modal_link").setAttribute("href", link);
-        })
-    })
+//Cap nhat link cho btn continue cho modal 
+export function updateModal(bloglist_id) {
+    let blog_list_html = document.getElementById(bloglist_id);
+    blog_list_html.onclick = function (e) {
+        //Tim phan tu gan nhat vi tri click thong qua class blog_card de nhan dien 
+        let item = e.target.closest(".blog_card");
+        // Neu click ko trung thi ko lam j 
+        if (item == null) { return; }
+        var link = item.getAttribute("data-bs-link");
+        document.getElementById("blog_link").setAttribute("href", link);
+    }
 }
 
 

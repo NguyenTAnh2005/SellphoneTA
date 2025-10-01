@@ -1,0 +1,702 @@
+[
+    {
+        "id": "pdt1",
+        "name": "IphoneX Vjppro",
+        "org_price": "11.990",
+        "new_price": "6.595",
+        "count_sale": "60%"
+    },
+    {
+        "id": "pdt2",
+        "name": "RedMagic 8 Pro",
+        "org_price": "15.990",
+        "new_price": "9.594",
+        "count_sale": "40%"
+    },
+    {
+        "id": "pdt3",
+        "name": "OPPO RENO 12 5G",
+        "org_price": "13.590",
+        "new_price": "7.475",
+        "count_sale": "45%"
+    },
+    {
+        "id": "pdt4",
+        "name": "Realme 9 Pro",
+        "org_price": "13.590",
+        "new_price": "7.475",
+        "count_sale": "45%"
+    },
+    {
+        "id": "pdt5",
+        "name": "Xiaomi 11T 5G",
+        "org_price": "13.590",
+        "new_price": "7.475",
+        "count_sale": "45%"
+    },
+    {
+        "id": "pdt6",
+        "name": "SamSung Galaxy S23 Ultra",
+        "org_price": "13.590",
+        "new_price": "7.475",
+        "count_sale": "45%"
+    },
+    {
+        "id": "pdt7",
+        "name": "Redmi Note 13 Pro",
+        "org_price": "11.990",
+        "new_price": "6.595",
+        "count_sale": "60%"
+    },
+    {
+        "id": "pdt8",
+        "name": "Ak Blue Dragon Lv7",
+        "org_price": "15.990",
+        "new_price": "9.594",
+        "count_sale": "40%"
+    },
+    {
+        "id": "pdt9",
+        "name": "Mp40 Death Lightning",
+        "org_price": "13.590",
+        "new_price": "7.475",
+        "count_sale": "45%"
+    },
+    {
+        "id": "pdt10",
+        "name": "Nokia",
+        "org_price": "11.990",
+        "new_price": "6.595",
+        "count_sale": "60%"
+    },
+    {
+        "id": "pdt1",
+        "name": "IphoneX Vjppro",
+        "org_price": "11.990",
+        "new_price": "6.595",
+        "count_sale": "60%"
+    },
+    {
+        "id": "pdt2",
+        "name": "RedMagic 8 Pro",
+        "org_price": "15.990",
+        "new_price": "9.594",
+        "count_sale": "40%"
+    },
+    {
+        "id": "pdt3",
+        "name": "OPPO RENO 12 5G",
+        "org_price": "13.590",
+        "new_price": "7.475",
+        "count_sale": "45%"
+    },
+    {
+        "id": "pdt4",
+        "name": "Realme 9 Pro",
+        "org_price": "13.590",
+        "new_price": "7.475",
+        "count_sale": "45%"
+    },
+    {
+        "id": "pdt5",
+        "name": "Xiaomi 11T 5G",
+        "org_price": "13.590",
+        "new_price": "7.475",
+        "count_sale": "45%"
+    },
+    {
+        "id": "pdt6",
+        "name": "SamSung Galaxy S23 Ultra",
+        "org_price": "13.590",
+        "new_price": "7.475",
+        "count_sale": "45%"
+    },
+    {
+        "id": "pdt7",
+        "name": "Redmi Note 13 Pro",
+        "org_price": "11.990",
+        "new_price": "6.595",
+        "count_sale": "60%"
+    },
+    {
+        "id": "pdt8",
+        "name": "Ak Blue Dragon Lv7",
+        "org_price": "15.990",
+        "new_price": "9.594",
+        "count_sale": "40%"
+    },
+    {
+        "id": "pdt9",
+        "name": "Mp40 Death Lightning",
+        "org_price": "13.590",
+        "new_price": "7.475",
+        "count_sale": "45%"
+    },
+    {
+        "id": "pdt10",
+        "name": "Nokia",
+        "org_price": "11.990",
+        "new_price": "6.595",
+        "count_sale": "60%"
+    },
+    {
+        "id": "pdt1",
+        "name": "IphoneX Vjppro",
+        "org_price": "11.990",
+        "new_price": "6.595",
+        "count_sale": "60%"
+    },
+    {
+        "id": "pdt2",
+        "name": "RedMagic 8 Pro",
+        "org_price": "15.990",
+        "new_price": "9.594",
+        "count_sale": "40%"
+    },
+    {
+        "id": "pdt3",
+        "name": "OPPO RENO 12 5G",
+        "org_price": "13.590",
+        "new_price": "7.475",
+        "count_sale": "45%"
+    },
+    {
+        "id": "pdt4",
+        "name": "Realme 9 Pro",
+        "org_price": "13.590",
+        "new_price": "7.475",
+        "count_sale": "45%"
+    },
+    {
+        "id": "pdt5",
+        "name": "Xiaomi 11T 5G",
+        "org_price": "13.590",
+        "new_price": "7.475",
+        "count_sale": "45%"
+    },
+    {
+        "id": "pdt6",
+        "name": "SamSung Galaxy S23 Ultra",
+        "org_price": "13.590",
+        "new_price": "7.475",
+        "count_sale": "45%"
+    },
+    {
+        "id": "pdt7",
+        "name": "Redmi Note 13 Pro",
+        "org_price": "11.990",
+        "new_price": "6.595",
+        "count_sale": "60%"
+    },
+    {
+        "id": "pdt8",
+        "name": "Ak Blue Dragon Lv7",
+        "org_price": "15.990",
+        "new_price": "9.594",
+        "count_sale": "40%"
+    },
+    {
+        "id": "pdt9",
+        "name": "Mp40 Death Lightning",
+        "org_price": "13.590",
+        "new_price": "7.475",
+        "count_sale": "45%"
+    },
+    {
+        "id": "pdt10",
+        "name": "Nokia",
+        "org_price": "11.990",
+        "new_price": "6.595",
+        "count_sale": "60%"
+    },
+    {
+        "id": "pdt1",
+        "name": "IphoneX Vjppro",
+        "org_price": "11.990",
+        "new_price": "6.595",
+        "count_sale": "60%"
+    },
+    {
+        "id": "pdt2",
+        "name": "RedMagic 8 Pro",
+        "org_price": "15.990",
+        "new_price": "9.594",
+        "count_sale": "40%"
+    },
+    {
+        "id": "pdt3",
+        "name": "OPPO RENO 12 5G",
+        "org_price": "13.590",
+        "new_price": "7.475",
+        "count_sale": "45%"
+    },
+    {
+        "id": "pdt4",
+        "name": "Realme 9 Pro",
+        "org_price": "13.590",
+        "new_price": "7.475",
+        "count_sale": "45%"
+    },
+    {
+        "id": "pdt5",
+        "name": "Xiaomi 11T 5G",
+        "org_price": "13.590",
+        "new_price": "7.475",
+        "count_sale": "45%"
+    },
+    {
+        "id": "pdt6",
+        "name": "SamSung Galaxy S23 Ultra",
+        "org_price": "13.590",
+        "new_price": "7.475",
+        "count_sale": "45%"
+    },
+    {
+        "id": "pdt7",
+        "name": "Redmi Note 13 Pro",
+        "org_price": "11.990",
+        "new_price": "6.595",
+        "count_sale": "60%"
+    },
+    {
+        "id": "pdt8",
+        "name": "Ak Blue Dragon Lv7",
+        "org_price": "15.990",
+        "new_price": "9.594",
+        "count_sale": "40%"
+    },
+    {
+        "id": "pdt9",
+        "name": "Mp40 Death Lightning",
+        "org_price": "13.590",
+        "new_price": "7.475",
+        "count_sale": "45%"
+    },
+    {
+        "id": "pdt10",
+        "name": "Nokia",
+        "org_price": "11.990",
+        "new_price": "6.595",
+        "count_sale": "60%"
+    },
+    {
+        "id": "pdt1",
+        "name": "IphoneX Vjppro",
+        "org_price": "11.990",
+        "new_price": "6.595",
+        "count_sale": "60%"
+    },
+    {
+        "id": "pdt2",
+        "name": "RedMagic 8 Pro",
+        "org_price": "15.990",
+        "new_price": "9.594",
+        "count_sale": "40%"
+    },
+    {
+        "id": "pdt3",
+        "name": "OPPO RENO 12 5G",
+        "org_price": "13.590",
+        "new_price": "7.475",
+        "count_sale": "45%"
+    },
+    {
+        "id": "pdt4",
+        "name": "Realme 9 Pro",
+        "org_price": "13.590",
+        "new_price": "7.475",
+        "count_sale": "45%"
+    },
+    {
+        "id": "pdt5",
+        "name": "Xiaomi 11T 5G",
+        "org_price": "13.590",
+        "new_price": "7.475",
+        "count_sale": "45%"
+    },
+    {
+        "id": "pdt6",
+        "name": "SamSung Galaxy S23 Ultra",
+        "org_price": "13.590",
+        "new_price": "7.475",
+        "count_sale": "45%"
+    },
+    {
+        "id": "pdt7",
+        "name": "Redmi Note 13 Pro",
+        "org_price": "11.990",
+        "new_price": "6.595",
+        "count_sale": "60%"
+    },
+    {
+        "id": "pdt8",
+        "name": "Ak Blue Dragon Lv7",
+        "org_price": "15.990",
+        "new_price": "9.594",
+        "count_sale": "40%"
+    },
+    {
+        "id": "pdt9",
+        "name": "Mp40 Death Lightning",
+        "org_price": "13.590",
+        "new_price": "7.475",
+        "count_sale": "45%"
+    },
+    {
+        "id": "pdt10",
+        "name": "Nokia",
+        "org_price": "11.990",
+        "new_price": "6.595",
+        "count_sale": "60%"
+    },
+    {
+        "id": "pdt1",
+        "name": "IphoneX Vjppro",
+        "org_price": "11.990",
+        "new_price": "6.595",
+        "count_sale": "60%"
+    },
+    {
+        "id": "pdt2",
+        "name": "RedMagic 8 Pro",
+        "org_price": "15.990",
+        "new_price": "9.594",
+        "count_sale": "40%"
+    },
+    {
+        "id": "pdt3",
+        "name": "OPPO RENO 12 5G",
+        "org_price": "13.590",
+        "new_price": "7.475",
+        "count_sale": "45%"
+    },
+    {
+        "id": "pdt4",
+        "name": "Realme 9 Pro",
+        "org_price": "13.590",
+        "new_price": "7.475",
+        "count_sale": "45%"
+    },
+    {
+        "id": "pdt5",
+        "name": "Xiaomi 11T 5G",
+        "org_price": "13.590",
+        "new_price": "7.475",
+        "count_sale": "45%"
+    },
+    {
+        "id": "pdt6",
+        "name": "SamSung Galaxy S23 Ultra",
+        "org_price": "13.590",
+        "new_price": "7.475",
+        "count_sale": "45%"
+    },
+    {
+        "id": "pdt7",
+        "name": "Redmi Note 13 Pro",
+        "org_price": "11.990",
+        "new_price": "6.595",
+        "count_sale": "60%"
+    },
+    {
+        "id": "pdt8",
+        "name": "Ak Blue Dragon Lv7",
+        "org_price": "15.990",
+        "new_price": "9.594",
+        "count_sale": "40%"
+    },
+    {
+        "id": "pdt9",
+        "name": "Mp40 Death Lightning",
+        "org_price": "13.590",
+        "new_price": "7.475",
+        "count_sale": "45%"
+    },
+    {
+        "id": "pdt10",
+        "name": "Nokia",
+        "org_price": "11.990",
+        "new_price": "6.595",
+        "count_sale": "60%"
+    },
+    {
+        "id": "pdt1",
+        "name": "IphoneX Vjppro",
+        "org_price": "11.990",
+        "new_price": "6.595",
+        "count_sale": "60%"
+    },
+    {
+        "id": "pdt2",
+        "name": "RedMagic 8 Pro",
+        "org_price": "15.990",
+        "new_price": "9.594",
+        "count_sale": "40%"
+    },
+    {
+        "id": "pdt3",
+        "name": "OPPO RENO 12 5G",
+        "org_price": "13.590",
+        "new_price": "7.475",
+        "count_sale": "45%"
+    },
+    {
+        "id": "pdt4",
+        "name": "Realme 9 Pro",
+        "org_price": "13.590",
+        "new_price": "7.475",
+        "count_sale": "45%"
+    },
+    {
+        "id": "pdt5",
+        "name": "Xiaomi 11T 5G",
+        "org_price": "13.590",
+        "new_price": "7.475",
+        "count_sale": "45%"
+    },
+    {
+        "id": "pdt6",
+        "name": "SamSung Galaxy S23 Ultra",
+        "org_price": "13.590",
+        "new_price": "7.475",
+        "count_sale": "45%"
+    },
+    {
+        "id": "pdt7",
+        "name": "Redmi Note 13 Pro",
+        "org_price": "11.990",
+        "new_price": "6.595",
+        "count_sale": "60%"
+    },
+    {
+        "id": "pdt8",
+        "name": "Ak Blue Dragon Lv7",
+        "org_price": "15.990",
+        "new_price": "9.594",
+        "count_sale": "40%"
+    },
+    {
+        "id": "pdt9",
+        "name": "Mp40 Death Lightning",
+        "org_price": "13.590",
+        "new_price": "7.475",
+        "count_sale": "45%"
+    },
+    {
+        "id": "pdt10",
+        "name": "Nokia",
+        "org_price": "11.990",
+        "new_price": "6.595",
+        "count_sale": "60%"
+    },
+    {
+        "id": "pdt1",
+        "name": "IphoneX Vjppro",
+        "org_price": "11.990",
+        "new_price": "6.595",
+        "count_sale": "60%"
+    },
+    {
+        "id": "pdt2",
+        "name": "RedMagic 8 Pro",
+        "org_price": "15.990",
+        "new_price": "9.594",
+        "count_sale": "40%"
+    },
+    {
+        "id": "pdt3",
+        "name": "OPPO RENO 12 5G",
+        "org_price": "13.590",
+        "new_price": "7.475",
+        "count_sale": "45%"
+    },
+    {
+        "id": "pdt4",
+        "name": "Realme 9 Pro",
+        "org_price": "13.590",
+        "new_price": "7.475",
+        "count_sale": "45%"
+    },
+    {
+        "id": "pdt5",
+        "name": "Xiaomi 11T 5G",
+        "org_price": "13.590",
+        "new_price": "7.475",
+        "count_sale": "45%"
+    },
+    {
+        "id": "pdt6",
+        "name": "SamSung Galaxy S23 Ultra",
+        "org_price": "13.590",
+        "new_price": "7.475",
+        "count_sale": "45%"
+    },
+    {
+        "id": "pdt7",
+        "name": "Redmi Note 13 Pro",
+        "org_price": "11.990",
+        "new_price": "6.595",
+        "count_sale": "60%"
+    },
+    {
+        "id": "pdt8",
+        "name": "Ak Blue Dragon Lv7",
+        "org_price": "15.990",
+        "new_price": "9.594",
+        "count_sale": "40%"
+    },
+    {
+        "id": "pdt9",
+        "name": "Mp40 Death Lightning",
+        "org_price": "13.590",
+        "new_price": "7.475",
+        "count_sale": "45%"
+    },
+    {
+        "id": "pdt10",
+        "name": "Nokia",
+        "org_price": "11.990",
+        "new_price": "6.595",
+        "count_sale": "60%"
+    },
+    {
+        "id": "pdt1",
+        "name": "IphoneX Vjppro",
+        "org_price": "11.990",
+        "new_price": "6.595",
+        "count_sale": "60%"
+    },
+    {
+        "id": "pdt2",
+        "name": "RedMagic 8 Pro",
+        "org_price": "15.990",
+        "new_price": "9.594",
+        "count_sale": "40%"
+    },
+    {
+        "id": "pdt3",
+        "name": "OPPO RENO 12 5G",
+        "org_price": "13.590",
+        "new_price": "7.475",
+        "count_sale": "45%"
+    },
+    {
+        "id": "pdt4",
+        "name": "Realme 9 Pro",
+        "org_price": "13.590",
+        "new_price": "7.475",
+        "count_sale": "45%"
+    },
+    {
+        "id": "pdt5",
+        "name": "Xiaomi 11T 5G",
+        "org_price": "13.590",
+        "new_price": "7.475",
+        "count_sale": "45%"
+    },
+    {
+        "id": "pdt6",
+        "name": "SamSung Galaxy S23 Ultra",
+        "org_price": "13.590",
+        "new_price": "7.475",
+        "count_sale": "45%"
+    },
+    {
+        "id": "pdt7",
+        "name": "Redmi Note 13 Pro",
+        "org_price": "11.990",
+        "new_price": "6.595",
+        "count_sale": "60%"
+    },
+    {
+        "id": "pdt8",
+        "name": "Ak Blue Dragon Lv7",
+        "org_price": "15.990",
+        "new_price": "9.594",
+        "count_sale": "40%"
+    },
+    {
+        "id": "pdt9",
+        "name": "Mp40 Death Lightning",
+        "org_price": "13.590",
+        "new_price": "7.475",
+        "count_sale": "45%"
+    },
+    {
+        "id": "pdt10",
+        "name": "Nokia",
+        "org_price": "11.990",
+        "new_price": "6.595",
+        "count_sale": "60%"
+    },
+    {
+        "id": "pdt1",
+        "name": "IphoneX Vjppro",
+        "org_price": "11.990",
+        "new_price": "6.595",
+        "count_sale": "60%"
+    },
+    {
+        "id": "pdt2",
+        "name": "RedMagic 8 Pro",
+        "org_price": "15.990",
+        "new_price": "9.594",
+        "count_sale": "40%"
+    },
+    {
+        "id": "pdt3",
+        "name": "OPPO RENO 12 5G",
+        "org_price": "13.590",
+        "new_price": "7.475",
+        "count_sale": "45%"
+    },
+    {
+        "id": "pdt4",
+        "name": "Realme 9 Pro",
+        "org_price": "13.590",
+        "new_price": "7.475",
+        "count_sale": "45%"
+    },
+    {
+        "id": "pdt5",
+        "name": "Xiaomi 11T 5G",
+        "org_price": "13.590",
+        "new_price": "7.475",
+        "count_sale": "45%"
+    },
+    {
+        "id": "pdt6",
+        "name": "SamSung Galaxy S23 Ultra",
+        "org_price": "13.590",
+        "new_price": "7.475",
+        "count_sale": "45%"
+    },
+    {
+        "id": "pdt7",
+        "name": "Redmi Note 13 Pro",
+        "org_price": "11.990",
+        "new_price": "6.595",
+        "count_sale": "60%"
+    },
+    {
+        "id": "pdt8",
+        "name": "Ak Blue Dragon Lv7",
+        "org_price": "15.990",
+        "new_price": "9.594",
+        "count_sale": "40%"
+    },
+    {
+        "id": "pdt9",
+        "name": "Mp40 Death Lightning",
+        "org_price": "13.590",
+        "new_price": "7.475",
+        "count_sale": "45%"
+    },
+    {
+        "id": "pdt10",
+        "name": "Nokia",
+        "org_price": "11.990",
+        "new_price": "6.595",
+        "count_sale": "60%"
+    }
+]

@@ -18,6 +18,9 @@
 </head>
 
 <body data-bs-theme="">
+    <a href="#" class="btn btn-danger rounded-circle position-fixed " style="z-index:99; bottom:20px; right:20px;">
+        <i class="bi bi-arrow-up fs-4 text-white"></i>
+    </a>
     <nav class="navbar bg-red navbar-expand-xl sticky-top animate__animated animate__zoomIn" id="HEADER"></nav>
 
 
@@ -26,19 +29,19 @@
         <div class="row border border-danger py-2 align-items-center">
             <!-- Tên trang -->
             <div class="col-12 col-xl-6 text-center fw-semibold text-uppercase fs-5">
-                Khám Phá
+                Khám Phá cac mau dt vippro
             </div>
 
             <!-- Các nút Sort + Search -->
             <!-- Ô tìm kiếm -->
-            <div class="col-xl-3 col-md-6 col-12">
+            <div class="col-xl-3 col-md-6 col-12 px-5 px-md-0">
                 <div class=" input-group ">
                     <input type="text" class="form-control" placeholder="Tìm sản phẩm...">
                     <button class="btn btn-danger"><i class="bi bi-search"></i></button>
                 </div>
             </div>
             <!-- Sort -->
-            <div class="col-xl-3 col-md-6 col-12 d-flex justify-content-center">
+            <div class="col-xl-3 col-md-6 col-12 mt-3 mt-md-0 d-flex justify-content-center">
                 <div class="btn-group" role="group">
                     <input type="radio" class="btn-check" name="sort_price" id="sort_1" checked>
                     <label for="sort_1" class="btn btn-outline-danger">Default</label>
@@ -66,12 +69,15 @@
         </div>
 
         <!-- Offcanvas Filter -->
-        <div class="offcanvas offcanvas-start w-50" tabindex="-1" id="filterCanvas" data-bs-theme="">
+        <div class="offcanvas offcanvas-start col-9 col-md-6" tabindex="-1" id="filterCanvas" data-bs-theme="">
             <div class="offcanvas-header">
                 <h5 class="offcanvas-title">Filter</h5>
                 <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
             </div>
             <div class="offcanvas-body">
+                <!--SHOW CAC MAU DT-->
+                <h6 class="mt-3">RAM</h6>
+                <div class="d-flex flex-wrap" id="phone_logo_group"></div>
                 <!-- RAM -->
                 <h6 class="mt-3">RAM</h6>
                 <div id="filter_ram" class="d-flex flex-wrap"></div>
@@ -82,7 +88,18 @@
 
                 <!-- PRICE -->
                 <h6 class="mt-3">PRICE</h6>
-                <div id="filter_price"></div>
+                <div id="filter_price">
+                    <div class="input-group flex-nowrap mb-3">
+                        <input type="text" class="form-control text-end" placeholder="Gia thap nhat"
+                            aria-describedby="addon-wrapping" id="ft3_ip1">
+                        <span class="input-group-text">000 vnd</span>
+                    </div>
+                    <div class="input-group flex-nowrap">
+                        <input type="text" class="form-control text-end" placeholder="Gia cao nhat"
+                            aria-describedby="addon-wrapping" id="ft3_ip2">
+                        <span class="input-group-text">000 vnd</span>
+                    </div>
+                </div>
 
                 <!-- SYSTEM -->
                 <h6 class="mt-3">SYSTEM</h6>
@@ -110,11 +127,6 @@
 
         <!--Phan chua ND Phone-->
         <div class="col-12">
-            <!--SHOW CAC MAU DT-->
-            <div class="container-fluid px-xl-5 px-1">
-                <div class="d-flex overflow-x-auto justify-content-between gap-4 grp_logo" id="phone_logo_group">
-                </div>
-            </div>
             <!--SHOW TAT CA DT-->
             <div class="container-fluid mt-3">
                 <div class="border-danger border-2 rounded-4 bg-list px-md-3 px-lg-4 row row-cols-2 row-cols-md-4 row-cols-lg-5 row-cols-xl-6 pb-3"
