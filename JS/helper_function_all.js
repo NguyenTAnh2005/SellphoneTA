@@ -204,7 +204,7 @@ export function getHtmlProduct(id, name, org_price, new_price, count_sale) {
     return `<a class="col mt-4 text-decoration-none text-reset" href="second_page/product_detail.html" title="${name}">
                 <div class="card p-1 border-1 border-danger rounded-2" id="product_item">
                     <div class="card_img d-flex justify-content-center">
-                        <img loading="lazy" class="w-50 mx-auto product_img" src="Images/List_product_Lab00/${id}.png">
+                        <img loading="lazy" class="w-100 mx-auto product_img" src="Images/List_product_Lab00/${id}.png">
                     </div>
                     <div class="card-body pb-0">
                         <h6 class="text-center text-truncate fw-semibold m-0 text-danger">${name}</h6>
