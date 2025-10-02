@@ -23,10 +23,99 @@
     </a>
     <nav class="navbar bg-red navbar-expand-lg" id="HEADER"></nav>
 
+    <div class="main container-fluid">
+        <!-- <div class="row my-3">
+            <div class="col-11 col-md-9 col-lg-8 col-xl-7 mx-auto">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search Blog.... :D">
+                    <button class="btn btn-danger"><i class="bi bi-search"></i></button>
+                </div>
+            </div>
+        </div> -->
+        <!--===============SLIDE CAC BLOG HOT ================-->
+        <div class="row">
+            <div class="col-11 col-lg-10 col-xl-6 mx-auto">
+                <div class="carousel slide pb-2" id="blog_banner">
+                    <!--================== SLIDE ===============-->
+                    <div class="carousel-inner border border-2 border-black overflow-hidden rounded-3"
+                        id="blog_banner_slide">
+                        <!--============= ADD CAROUSEL HERE==========-->>
+                    </div>
+                    <!--====================CAC NUT PREV NEXT================-->
+                    <button type="button" data-bs-target="#blog_banner" class="carousel-control-prev"
+                        data-bs-slide="prev" style="transform: translateX(-65%);">
+                        <i class="bi bi-arrow-left-circle-fill text-danger fs-2"></i>
+                    </button>
+                    <button type="button" data-bs-target="#blog_banner" class="carousel-control-next"
+                        data-bs-slide="next" style="transform: translateX(65%);">
+                        <i class=" bi bi-arrow-right-circle-fill text-danger fs-2"></i>
+                    </button>
+                    <!--=====================INDICATORS=======================-->
+                    <div class="carousel-indicators mb-1" id="blogvip_indicators">
+                        <!--===============ADD INDICATORS HERE===========-->
+                    </div>
+                    <style>
+                        .carousel-indicators [data-bs-target] {
+                            background-color: rgb(106, 106, 106);
+                            width: 12px;
+                            height: 12px;
+                            border-radius: 50%;
+                        }
+
+                        .carousel-indicators .active {
+                            background-color: #fd0000;
+                        }
+                    </style>
+                </div>
+            </div>
+        </div>
+
+        <!--===================CAC LIST DS BAI VIET KHAC========================-->
+        <div class="row">
+            <!--======================NOI BAT TRONG TUAN =================-->
+            <div class="col-12 col-xl-6 bg-warning">
+                <div>
+                    <h5>Cac bai viet trong thang</h5>
+                </div>
+                <div class="border rounded-2 bg-success" style="overflow-y: auto; max-height: 600px;"
+                    id="list_blog_other_1">
+                    <div class="d-flex align-items-center justify-content-around bg-light">
+                        <img src="Images/Blog_imgs/blog_img_1.png" class="rounded-2" style="width: 15%;">
+                        <div class="d-flex" style="flex-direction: column;width: 70%;">
+                            <span class="fw-semibold m-0 text-truncate" title="title">Title</span>
+                            <span class="m-0 small" style="max-height: 40px;overflow-y: hidden;">
+                                <sup>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis non obcaecati
+                                    odit odio sunt corporis incidunt doloribus nobis, sint quidem!</sup>
+                            </span>
+                        </div>
+                        <div style="width: 5%;">
+                            <a href="#" class="btn btn-outline-danger rounded-pill p-0 px-1">
+                                <i class="bi bi-chevron-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--===================ALL========================-->
+            <div class="col-12 col-xl-6">
+                <h5>Tat ca cac bai viet</h5>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search Blog.... :D">
+                    <button class="btn btn-danger"><i class="bi bi-search"></i></button>
+                </div>
+                <div class="border rounded-2" style="overflow-y: auto; max-width: 600px;" id="list_blog_other_1">
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
     <div class="footer container-fluid px-3 bg-secondary text-light" id="FOOTER"></div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
         crossorigin="anonymous"></script>
 </body>
+
 
 </html>
